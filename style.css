@@ -1,0 +1,158 @@
+*{
+  margin:0;
+}
+
+
+
+#navbar{
+  background-color:black;
+  color:white;
+  position:fixed;
+  top:0;
+  height:75px;
+  width:100vw;
+  display:flex;
+  justify-content:flex-end;
+}
+
+#menu{
+/*   outline:5px solid red; */
+  width: 50vw;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+}
+
+a{
+   color:inherit;
+   font-size:24px;
+  text-decoration:none;
+}
+
+#welcome-section{
+  height: 100vh;
+  margin-top:75px;
+  display:flex;
+  /*justify-content:center;*/
+  align-items:center;
+   background: rgba(211,211,211,0.3);
+/*   outline:5px solid purple; */
+/*   background: url(https://i.ibb.co/1zwKQHW/Image-Projet5.png) no-repeat center; */
+ }
+#welcome-section a{
+   flex-shrink:1;
+  width: 100%;
+}
+
+
+h1{
+  font-size: 52px;
+  flex-shrink:1;
+  text-align:center;
+  width: 100%;
+  
+}
+
+h2{
+ outline:1px dashed purple;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 48px;
+    
+}
+
+#projects{
+/*   outline:4px solid pink; */
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+ }
+
+#projects a{
+  margin-bottom:50px;
+}
+
+iframe{
+  border:20px solid black;
+  margin-bottom:10px;
+  border-radius:50%;
+}
+
+
+
+a{
+
+    text-align:center;
+}
+
+.compte{
+/*   outline:2px solid yellow ; */
+  padding: 40px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  }
+
+#cpt{
+/*   outline:1px solid red ; */
+  width:40%;
+  display:flex;
+  justify-content:space-between;
+}
+
+
+
+@media only screen 
+  and (min-width: 375px)
+  and (max-width: 736px)
+  and (orientation: portrait){
+    
+     
+    
+    #menu{  
+      width: 80vw;
+    }
+ 
+    a{
+      font-size:18px;
+    }
+    
+    #welcome-section{
+      height: 60vh;
+      flex-direction: column;
+      justify-content:space-around;
+    }
+    
+    h1{
+      font-size: 36px;
+    }
+    
+    h2{
+      font-size: 24px;
+    }
+       
+   iframe{
+      width:300px;
+      height:300px;
+    }
+    
+    .compte{
+      display:flex;
+/*       justify-content:space-between; */
+    }
+    
+    #cpt{
+      
+       width:90%;
+    }
+    
+    .compte a {
+      font-size:16px;
+      font-weight:bold;
+     }
+    
+    /* */
+    
+}
